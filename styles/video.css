@@ -1,0 +1,61 @@
+.css-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 7px;
+    row-gap: 30px;
+    
+}
+.poster{
+    width: 93%;
+}
+.image{
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 33px;
+    bottom: 12px;
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.profile-picture{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.profile{
+    width: 40px;
+    border-radius: 50px;
+}
+.texts{
+    display: inline-block;
+    width: 90%;
+    margin-top: 5px;
+    
+}
+.title{
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.channel-name{
+    margin-top: 10px;
+    opacity: 0.8;
+    font-size: 12px;
+}
+.views{
+    margin-top: 5px;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
